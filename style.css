@@ -521,6 +521,43 @@ input:focus {
   display: grid;
   gap: 12px; }
 
+.vesperata-calendar-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  padding: 16px 18px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(234, 216, 178, 0.95);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.04); }
+
+.vesperata-calendar-row i {
+  color: #a47a35;
+  font-size: 18px;
+  opacity: 0.7; }
+
+.vesperata-calendar-row strong {
+  color: #2e3642;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: auto; }
+
+.vesperata-month-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 20px;
+  background: #a47a35;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  min-width: 90px;
+  text-align: center;
+  justify-content: center; }
+
 .vesperata-calendar-item {
   display: flex;
   align-items: center;
