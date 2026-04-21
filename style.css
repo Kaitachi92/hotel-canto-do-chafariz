@@ -2974,6 +2974,13 @@ iframe {
   height: auto;
   aspect-ratio: 3 / 2; }
 
+.cafe-detail-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 8px; }
+
 .single-room-slide .room-thumbnail,
 .single-room-area .room-thumbnail,
 .single-room-slide .room-content,
